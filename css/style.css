@@ -486,6 +486,7 @@ th {
   border-bottom: solid 1em;
   padding: 6em 0;
   height: 10rem;
+  overflow: auto;
 }
 
 .introduction > .content {
@@ -500,5 +501,14 @@ th {
   background-color: orange;
   margin-top: 0.5em;
   font-family: verdana;
+  margin: 0 auto;
+  text-shadow: none;
+  border-style: none;
+  padding: 16px 26px;
+  line-height: 1.33;
+  font-size: 1.1em;
 }
 
+.introduction .learn-button:hover {
+  background-color: #aaccee;
+}

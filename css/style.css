@@ -428,4 +428,77 @@ th {
 
 
 
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation  .content {
+  width: 40em;
+  height: 1.5em;
+  margin: auto;
+
+}
+
+.top-navigation .links {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  color: #838994;
+  font-size: 1.1em;
+  margin-top: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation  .links li {
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.top-navigation .links .meet-karma {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+.top-navigation .logo {
+  margin-top: 0.75em;
+  height: 2em;
+  margin-left: 8em;
+  margin-bottom: 1em;
+
+}
+
+.content {
+  padding: 0px 15px;
+}
+
+
+
+.introduction {
+  background-image: url("https://images.unsplash.com/photo-1433424007598-bd5d102e8597?q=80&fm=jpg&s=57558b291a1e7721800eff1702e5d711");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-top: solid 1em;
+  border-bottom: solid 1em;
+  padding: 6em 0;
+  height: 10rem;
+}
+
+.introduction > .content {
+  text-align: center;
+  color: white;
+  font-family: 'Gentium Book Basic', 'Roboto', sans-serif;
+  font-weight: lighter;
+
+}
+
+.introduction .learn-button {
+  background-color: orange;
+  margin-top: 0.5em;
+  font-family: verdana;
+}
 

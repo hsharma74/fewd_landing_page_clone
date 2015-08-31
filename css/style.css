@@ -426,10 +426,15 @@ th {
   padding: 0;
 }
 
-
+body {
+  letter-spacing: -0.03em;
+}
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation  .content {
@@ -484,9 +489,9 @@ th {
   background-position: center bottom;
   border-top: solid 1em;
   border-bottom: solid 1em;
-  padding: 6em 0;
-  height: 10rem;
-  overflow: auto;
+  padding: 10em 0;
+  height: 15rem;
+  /*overflow: auto;*/
 }
 
 .introduction > .content {
@@ -494,7 +499,7 @@ th {
   color: white;
   font-family: 'Gentium Book Basic', 'Roboto', sans-serif;
   font-weight: lighter;
-
+  font-size: 1.5em;
 }
 
 .introduction .learn-button {
@@ -507,8 +512,92 @@ th {
   padding: 16px 26px;
   line-height: 1.33;
   font-size: 1.1em;
+  border-radius: 10px;
 }
 
 .introduction .learn-button:hover {
   background-color: #aaccee;
 }
+
+.middle-section .content {
+  text-align: center;
+  margin-top: 7em;
+  margin-bottom: 5em;
+}
+
+.middle-section .content h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Roboto', verdana, sans-serif;
+  margin-bottom: 2em;
+}
+
+.middle-section .devices {
+  
+}
+
+.middle-section .devices li {
+  display: inline-block;
+  margin: 1em 2em;
+}
+
+.middle-section .caption {
+  font-weight: lighter;
+  font-size: 1.1em;
+}
+
+.social {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.social h1 {
+  text-align: center;
+  font-family: 'Gentium Book Basic', verdana, sans-serif;
+  font-size: 1.0em;
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+
+.social .content {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.social .icons {
+  text-align: center;
+}
+
+.social .icons > li {
+  display: inline-block;
+  text-align: center;
+  margin: 1.25em 5px;
+  border-radius: 1em;
+  width: 2em;
+  height: 2em;
+  border: 1px solid #eaebec;
+  padding: 0.5em 0;
+
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .facebook {
+  color: #4c66a4;
+}
+
+.social .instagram {
+  color: #3f729b;
+}
+
+.social .copy{
+  font-color: #888994;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+
